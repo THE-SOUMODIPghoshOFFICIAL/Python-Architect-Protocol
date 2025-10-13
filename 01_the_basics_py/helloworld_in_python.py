@@ -1,0 +1,1 @@
+print("hello world !!  are you ready to see a magic show ?")   ;
