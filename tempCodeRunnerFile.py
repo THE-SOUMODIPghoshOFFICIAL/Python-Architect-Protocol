@@ -1,1 +1,0 @@
-print("hello world !!  are your ready to see a magic show ?")
