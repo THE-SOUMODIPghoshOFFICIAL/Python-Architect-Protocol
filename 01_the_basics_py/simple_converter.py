@@ -1,6 +1,12 @@
 # simple_converter.py
 # A straightforward temperature converter for beginners.
 
+
+# - Converts between Celsius, Fahrenheit, and Kelvin.
+# - Prompts the user for a value and a unit.
+# - Includes a loop to allow multiple conversions.
+# - Adds basic error handling for non-numeric input.
+
 print("--- Simple Temperature Converter ---")
 
 # This loop lets the user do multiple conversions without restarting the script.
