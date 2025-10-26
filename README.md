@@ -1,3 +1,5 @@
+<html>
+<body>
 <div align="center">
 
   # 🐍 Python Architect Protocol // by BROCCOLI 🐍
@@ -77,44 +79,48 @@ This protocol is segmented into distinct phases, tracking the progression from b
 </div>
 
 <p>
-  <ul>
-    <li><b><code>01_the_basics_py/</code></b>: Contains foundational Python scripts.</li>
-    <li><em>As the protocol advances, new directories and files for subsequent phases (e.g., OOP, Data Structures) will be introduced.</em></li>
-  </ul>
+  <ul>
+    <li><b><code>01_the_basics_py/</code></b>: Contains foundational Python scripts.</li>
+    <li><em>As the protocol advances, new directories and files for subsequent phases (e.g., OOP, Data Structures) will be introduced.</em></li>
+  </ul>
 </p>
 
----
+<br>
+<hr style="border: 0; height: 1px; background: #333; margin-top: 30px; margin-bottom: 30px;">
 
 <div style="background-color: #1e1e1e; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); color: #c8d1d9;">
-    
-    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
-        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
-            ⚙️ Running the Code
-        </summary>
-        <div style="padding-left: 2em; padding-top: 10px;">
-            <p>To run a specific Python script:</p>
-            <ol>
-                <li>Ensure you have Python 3 installed.</li>
-                <li>Clone the repository (or download the file).</li>
-                <li>Navigate to the repository folder:
-                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd Python-Architect-Protocol</code></pre>
-                </li>
-                <li>Run the desired script from within the `01_the_basics_py` directory:
-                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd 01_the_basics_py
+    
+    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
+        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
+            ⚙️ Running the Code
+        </summary>
+        <div style="padding-left: 2em; padding-top: 10px;">
+            <p>To run a specific Python script:</p>
+            <ol>
+                <li>Ensure you have Python 3 installed.</li>
+                <li>Clone the repository (or download the file).</li>
+                <li>Navigate to the repository folder:
+                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd Python-Architect-Protocol</code></pre>
+                </li>
+                <li>Run the desired script from within the <code>01_the_basics_py</code> directory:
+                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd 01_the_basics_py
 python papersize.py</code></pre>
-                    *(Replace <code>papersize.py</code> with the script you wish to run)*
-                </li>
-            </ol>
-        </div>
-    </details>
+                    <em>(Replace <code>papersize.py</code> with the script you wish to run)</em>
+                </li>
+            </ol>
+        </div>
+    </details>
 
-    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
-        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
-            🤝 Contributing
-        </summary>
-        <div style="padding-left: 2em; padding-top: 10px;">
-            <p>As this is a personal learning journey, I'm not actively seeking direct contributions to code.</p>
-            <p>However, your feedback is highly valued! If you spot a bug, have a suggestion for a more "Pythonic" approach, or want to discuss a concept, please don't hesitate to:</p>
+    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
+        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
+            🤝 Contributing
+        </summary>
+        <div style="padding-left: 2em; padding-top: 10px;">
+NT          <p>As this is a personal learning journey, I'm not actively seeking direct contributions to code.</p>
+            <p>However, your feedback is highly valued! If you spot a bug, have a suggestion for a more "Pythonic" approach, or want to discuss a concept, please don't hesitate to:</p>
+
+
+__
             <div style="text-align: center; margin-top: 20px;">
                 <a href="https://github.com/THE-SOUMODIPghoshOFFICIAL/Python-Architect-Protocol/issues/new" target="_blank" style="display: inline-block; background-color: #98c379; color: #282c34; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1em; margin-top: 20px; border: none; cursor: pointer;">
                     Open an Issue on GitHub
@@ -124,15 +130,7 @@ python papersize.py</code></pre>
         </div>
     </details>
 
-    <details style="border: none; margin-bottom: 0; padding-bottom: 0;">
-        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
-            📄 License
-        </summary>
-        <div style="padding-left: 2em; padding-top: 10px;">
-            <p>This project is licensed under the <strong>MIT License</strong> - you can find the full details in the <a href="LICENSE" style="color: #61afef; text-decoration: none;">LICENSE</a> file.</p>
-            <p>Feel free to use, modify, and distribute according to the terms.</p>
-        </div>
-    </details>
+    
 </div>
 
 <div style="text-align: center; margin-top: 40px; padding-top: 30px; border-top: 1px dashed #444;">
