@@ -1,6 +1,6 @@
 <div align="center">
 
-  # 🐍 Python Architect Protocol // by BROCCOLI 🐍
+# 🐍 Python Architect Protocol // by BROCCOLI 🐍
 
   <p>
     A repository dedicated to mastering Python, from foundational principles to advanced application architecture. This protocol documents the construction of robust, scalable, and elegant solutions.
@@ -19,10 +19,10 @@
 
 ## 🧾 Architect's Log
 
-* **Protocol Initiated:** October 12th, 2025
-* **Current Phase:** Phase 1 - Core Syntax & Data Structures
-* **Objective:** To construct and deconstruct Pythonic solutions.
-* **Status:** <font color="green">**Architect core online. Systems nominal.**</font>
+- **Protocol Initiated:** October 12th, 2025
+- **Current Phase:** Phase 1 - Core Syntax & Data Structures
+- **Objective:** To construct and deconstruct Pythonic solutions.
+- **Status:** <font color="green">**Architect core online. Systems nominal.**</font>
 
 ---
 
@@ -55,8 +55,6 @@ This protocol is segmented into distinct phases, tracking the progression from b
   - [ ] Unit Testing (`unittest` or `pytest`)
   - [ ] Containerization (Docker)
   - [ ] CI/CD Pipelines (GitHub Actions)
-
-## 🗂️ Project Structure
 
 <h2 id="-project-structure">🗂️ Project Structure</h2>
 
@@ -103,160 +101,160 @@ This protocol is segmented into distinct phases, tracking the progression from b
     color: #c8d1d9; /* Lighter text color for contrast */
 }
 
-/* Accordion (details/summary) styling */
+/_ Accordion (details/summary) styling _/
 .interactive-section details {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #333;
-    padding-bottom: 15px;
+margin-bottom: 15px;
+border-bottom: 1px solid #333;
+padding-bottom: 15px;
 }
 
 .interactive-section details:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
+border-bottom: none;
+padding-bottom: 0;
+margin-bottom: 0;
 }
 
 .interactive-section summary {
-    font-size: 1.3em;
-    font-weight: bold;
-    color: #61afef; /* Primary accent color */
-    cursor: pointer;
-    outline: none;
-    padding: 10px 0;
-    transition: color 0.2s ease-in-out;
-    display: flex;
-    align-items: center;
+font-size: 1.3em;
+font-weight: bold;
+color: #61afef; /_ Primary accent color _/
+cursor: pointer;
+outline: none;
+padding: 10px 0;
+transition: color 0.2s ease-in-out;
+display: flex;
+align-items: center;
 }
 
 .interactive-section summary:hover {
-    color: #98c379; /* Hover accent color */
+color: #98c379; /_ Hover accent color _/
 }
 
 .interactive-section summary::before {
-    content: '▶'; /* Right-pointing triangle */
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.5em;
-    transition: transform 0.2s ease-in-out;
+content: '▶'; /_ Right-pointing triangle _/
+display: inline-block;
+width: 1em;
+margin-right: 0.5em;
+transition: transform 0.2s ease-in-out;
 }
 
 .interactive-section details[open] summary::before {
-    content: '▼'; /* Down-pointing triangle when open */
-    transform: rotate(0deg); /* Reset rotation if any */
+content: '▼'; /_ Down-pointing triangle when open _/
+transform: rotate(0deg); /_ Reset rotation if any _/
 }
 
 .interactive-section details[open] summary {
-    color: #98c379; /* Green when open */
+color: #98c379; /_ Green when open _/
 }
 
 .interactive-section pre code {
-    background-color: #2c313a; /* Darker background for code blocks */
-    color: #abb2bf;
-    padding: 15px;
-    border-radius: 5px;
-    display: block; /* Ensures it takes full width */
-    overflow-x: auto; /* For horizontal scrolling if code is too long */
-    margin-top: 10px;
+background-color: #2c313a; /_ Darker background for code blocks _/
+color: #abb2bf;
+padding: 15px;
+border-radius: 5px;
+display: block; /_ Ensures it takes full width _/
+overflow-x: auto; /_ For horizontal scrolling if code is too long _/
+margin-top: 10px;
 }
 
-/* "About the Architect" section styling */
+/_ "About the Architect" section styling _/
 .about-architect {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 30px;
-    border-top: 1px dashed #444; /* Dotted line separator */
+text-align: center;
+margin-top: 40px;
+padding-top: 30px;
+border-top: 1px dashed #444; /_ Dotted line separator _/
 }
 
 .about-architect h3 {
-    font-size: 1.8em;
-    color: #e6c07b; /* Gold/Yellow accent for heading */
-    margin-bottom: 15px;
-    letter-spacing: 1px;
+font-size: 1.8em;
+color: #e6c07b; /_ Gold/Yellow accent for heading _/
+margin-bottom: 15px;
+letter-spacing: 1px;
 }
 
 .about-architect p {
-    font-size: 1.1em;
-    color: #c8d1d9;
-    margin-bottom: 25px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+font-size: 1.1em;
+color: #c8d1d9;
+margin-bottom: 25px;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
 }
 
-/* Social links styling */
+/_ Social links styling _/
 .social-links {
-    margin-top: 20px;
-    margin-bottom: 30px;
+margin-top: 20px;
+margin-bottom: 30px;
 }
 
 .social-links a {
-    display: inline-block;
-    color: #c8d1d9;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 15px;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
-    border: 1px solid transparent;
+display: inline-block;
+color: #c8d1d9;
+text-decoration: none;
+font-weight: bold;
+margin: 0 15px;
+padding: 8px 15px;
+border-radius: 5px;
+transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+border: 1px solid transparent;
 }
 
 .social-links a:hover {
-    background-color: #3e4451; /* Darker hover background */
-    color: #61afef; /* Accent color on hover */
-    transform: translateY(-2px); /* Slight lift effect */
-    border-color: #61afef;
+background-color: #3e4451; /_ Darker hover background _/
+color: #61afef; /_ Accent color on hover _/
+transform: translateY(-2px); /_ Slight lift effect _/
+border-color: #61afef;
 }
 
 .social-links a i {
-    margin-right: 8px;
+margin-right: 8px;
 }
 
-/* Issue button styling */
+/_ Issue button styling _/
 .issue-button {
-    display: inline-block;
-    background-color: #98c379; /* Green accent color */
-    color: #282c34; /* Dark text for contrast */
-    padding: 12px 25px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-    margin-top: 20px;
-    border: none;
-    cursor: pointer;
+display: inline-block;
+background-color: #98c379; /_ Green accent color _/
+color: #282c34; /_ Dark text for contrast _/
+padding: 12px 25px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1.1em;
+transition: background-color 0.2s ease, transform 0.1s ease;
+margin-top: 20px;
+border: none;
+cursor: pointer;
 }
 
 .issue-button:hover {
-    background-color: #7aa56c; /* Slightly darker green on hover */
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(152, 195, 121, 0.3); /* Green glow */
+background-color: #7aa56c; /_ Slightly darker green on hover _/
+transform: translateY(-2px);
+box-shadow: 0 5px 15px rgba(152, 195, 121, 0.3); /_ Green glow _/
 }
 
-/* For responsiveness on smaller screens */
+/_ For responsiveness on smaller screens _/
 @media (max-width: 768px) {
-    .interactive-section {
-        padding: 15px;
-    }
-    .interactive-section summary {
-        font-size: 1.1em;
-    }
-    .about-architect h3 {
-        font-size: 1.5em;
-    }
-    .about-architect p {
-        font-size: 1em;
-    }
-    .social-links a {
-        margin: 0 8px;
-        padding: 6px 10px;
-        font-size: 0.9em;
-    }
-    .issue-button {
-        padding: 10px 20px;
-        font-size: 1em;
-    }
+.interactive-section {
+padding: 15px;
+}
+.interactive-section summary {
+font-size: 1.1em;
+}
+.about-architect h3 {
+font-size: 1.5em;
+}
+.about-architect p {
+font-size: 1em;
+}
+.social-links a {
+margin: 0 8px;
+padding: 6px 10px;
+font-size: 0.9em;
+}
+.issue-button {
+padding: 10px 20px;
+font-size: 1em;
+}
 }
 </style>
 
@@ -298,6 +296,7 @@ This protocol is segmented into distinct phases, tracking the progression from b
             <p>Feel free to use, modify, and distribute according to the terms.</p>
         </div>
     </details>
+
 </div>
 
 <div class="about-architect">
