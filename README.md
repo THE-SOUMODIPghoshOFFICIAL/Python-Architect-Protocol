@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Python Architect Protocol // by BROCCOLI 🐍
+  # 🐍 Python Architect Protocol // by BROCCOLI 🐍
 
   <p>
     A repository dedicated to mastering Python, from foundational principles to advanced application architecture. This protocol documents the construction of robust, scalable, and elegant solutions.
@@ -19,10 +19,10 @@
 
 ## 🧾 Architect's Log
 
-- **Protocol Initiated:** October 12th, 2025
-- **Current Phase:** Phase 1 - Core Syntax & Data Structures
-- **Objective:** To construct and deconstruct Pythonic solutions.
-- **Status:** <font color="green">**Architect core online. Systems nominal.**</font>
+* **Protocol Initiated:** October 12th, 2025
+* **Current Phase:** Phase 1 - Core Syntax & Data Structures
+* **Objective:** To construct and deconstruct Pythonic solutions.
+* **Status:** <font color="green">**Architect core online. Systems nominal.**</font>
 
 ---
 
@@ -56,20 +56,13 @@ This protocol is segmented into distinct phases, tracking the progression from b
   - [ ] Containerization (Docker)
   - [ ] CI/CD Pipelines (GitHub Actions)
 
+---
+
 <h2 id="-project-structure">🗂️ Project Structure</h2>
 
 <p>The repository is organized by topic, with each folder containing related Python scripts:</p>
 
-<div style="
-    font-family: 'Consolas', 'Monaco', monospace;
-    background-color: #282c34; /* Dark background similar to VS Code */
-    color: #abb2bf; /* Light text color */
-    padding: 15px;
-    border-radius: 8px;
-    line-height: 1.6;
-    font-size: 0.95em;
-    overflow-x: auto;
-">
+<div style="font-family: 'Consolas', 'Monaco', monospace; background-color: #282c34; color: #abb2bf; padding: 15px; border-radius: 8px; line-height: 1.6; font-size: 0.95em; overflow-x: auto;">
     <span style="color: #61afef;"><b>Python-Architect-Protocol/</b></span><br>
     &emsp;├── <span style="color: #e06c75;">📁 <b>01_the_basics_py/</b></span><br>
     &emsp;&emsp;&emsp;├── <span style="color: #e5c07b;">🐍 distanceinpy.py</span><br>
@@ -90,198 +83,40 @@ This protocol is segmented into distinct phases, tracking the progression from b
   </ul>
 </p>
 
-<hr> <style>
-/* General styles for the interactive sections */
-.interactive-section {
-    background-color: #1e1e1e; /* Darker background than main body */
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    color: #c8d1d9; /* Lighter text color for contrast */
-}
+---
 
-/_ Accordion (details/summary) styling _/
-.interactive-section details {
-margin-bottom: 15px;
-border-bottom: 1px solid #333;
-padding-bottom: 15px;
-}
-
-.interactive-section details:last-child {
-border-bottom: none;
-padding-bottom: 0;
-margin-bottom: 0;
-}
-
-.interactive-section summary {
-font-size: 1.3em;
-font-weight: bold;
-color: #61afef; /_ Primary accent color _/
-cursor: pointer;
-outline: none;
-padding: 10px 0;
-transition: color 0.2s ease-in-out;
-display: flex;
-align-items: center;
-}
-
-.interactive-section summary:hover {
-color: #98c379; /_ Hover accent color _/
-}
-
-.interactive-section summary::before {
-content: '▶'; /_ Right-pointing triangle _/
-display: inline-block;
-width: 1em;
-margin-right: 0.5em;
-transition: transform 0.2s ease-in-out;
-}
-
-.interactive-section details[open] summary::before {
-content: '▼'; /_ Down-pointing triangle when open _/
-transform: rotate(0deg); /_ Reset rotation if any _/
-}
-
-.interactive-section details[open] summary {
-color: #98c379; /_ Green when open _/
-}
-
-.interactive-section pre code {
-background-color: #2c313a; /_ Darker background for code blocks _/
-color: #abb2bf;
-padding: 15px;
-border-radius: 5px;
-display: block; /_ Ensures it takes full width _/
-overflow-x: auto; /_ For horizontal scrolling if code is too long _/
-margin-top: 10px;
-}
-
-/_ "About the Architect" section styling _/
-.about-architect {
-text-align: center;
-margin-top: 40px;
-padding-top: 30px;
-border-top: 1px dashed #444; /_ Dotted line separator _/
-}
-
-.about-architect h3 {
-font-size: 1.8em;
-color: #e6c07b; /_ Gold/Yellow accent for heading _/
-margin-bottom: 15px;
-letter-spacing: 1px;
-}
-
-.about-architect p {
-font-size: 1.1em;
-color: #c8d1d9;
-margin-bottom: 25px;
-max-width: 800px;
-margin-left: auto;
-margin-right: auto;
-}
-
-/_ Social links styling _/
-.social-links {
-margin-top: 20px;
-margin-bottom: 30px;
-}
-
-.social-links a {
-display: inline-block;
-color: #c8d1d9;
-text-decoration: none;
-font-weight: bold;
-margin: 0 15px;
-padding: 8px 15px;
-border-radius: 5px;
-transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
-border: 1px solid transparent;
-}
-
-.social-links a:hover {
-background-color: #3e4451; /_ Darker hover background _/
-color: #61afef; /_ Accent color on hover _/
-transform: translateY(-2px); /_ Slight lift effect _/
-border-color: #61afef;
-}
-
-.social-links a i {
-margin-right: 8px;
-}
-
-/_ Issue button styling _/
-.issue-button {
-display: inline-block;
-background-color: #98c379; /_ Green accent color _/
-color: #282c34; /_ Dark text for contrast _/
-padding: 12px 25px;
-border-radius: 8px;
-text-decoration: none;
-font-weight: bold;
-font-size: 1.1em;
-transition: background-color 0.2s ease, transform 0.1s ease;
-margin-top: 20px;
-border: none;
-cursor: pointer;
-}
-
-.issue-button:hover {
-background-color: #7aa56c; /_ Slightly darker green on hover _/
-transform: translateY(-2px);
-box-shadow: 0 5px 15px rgba(152, 195, 121, 0.3); /_ Green glow _/
-}
-
-/_ For responsiveness on smaller screens _/
-@media (max-width: 768px) {
-.interactive-section {
-padding: 15px;
-}
-.interactive-section summary {
-font-size: 1.1em;
-}
-.about-architect h3 {
-font-size: 1.5em;
-}
-.about-architect p {
-font-size: 1em;
-}
-.social-links a {
-margin: 0 8px;
-padding: 6px 10px;
-font-size: 0.9em;
-}
-.issue-button {
-padding: 10px 20px;
-font-size: 1em;
-}
-}
-</style>
-
-<div class="interactive-section">
-    <details>
-        <summary>⚙️ Running the Code</summary>
+<div style="background-color: #1e1e1e; border-radius: 10px; padding: 20px; margin-top: 30px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); color: #c8d1d9;">
+    
+    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
+        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
+            ⚙️ Running the Code
+        </summary>
         <div style="padding-left: 2em; padding-top: 10px;">
             <p>To run a specific Python script:</p>
             <ol>
                 <li>Ensure you have Python 3 installed.</li>
                 <li>Clone the repository (or download the file).</li>
                 <li>Navigate to the repository folder:
-<pre><code>cd Python-Architect-Protocol</code></pre></li>
-                <li>Run the desired script:
-<pre><code>python 01_the_basics.py</code></pre>
-                *(Replace <code>01_the_basics.py</code> with the script you wish to run)*</li>
+                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd Python-Architect-Protocol</code></pre>
+                </li>
+                <li>Run the desired script from within the `01_the_basics_py` directory:
+                    <pre style="background-color: #2c313a; color: #abb2bf; padding: 15px; border-radius: 5px; display: block; overflow-x: auto; margin-top: 10px;"><code>cd 01_the_basics_py
+python papersize.py</code></pre>
+                    *(Replace <code>papersize.py</code> with the script you wish to run)*
+                </li>
             </ol>
         </div>
     </details>
 
-    <details>
-        <summary>🤝 Contributing</summary>
+    <details style="margin-bottom: 15px; border-bottom: 1px solid #333; padding-bottom: 15px;">
+        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
+            🤝 Contributing
+        </summary>
         <div style="padding-left: 2em; padding-top: 10px;">
             <p>As this is a personal learning journey, I'm not actively seeking direct contributions to code.</p>
             <p>However, your feedback is highly valued! If you spot a bug, have a suggestion for a more "Pythonic" approach, or want to discuss a concept, please don't hesitate to:</p>
             <div style="text-align: center; margin-top: 20px;">
-                <a href="https://github.com/THE-SOUMODIPghoshOFFICIAL/Python-Architect-Protocol/issues/new" class="issue-button" target="_blank">
+                <a href="https://github.com/THE-SOUMODIPghoshOFFICIAL/Python-Architect-Protocol/issues/new" target="_blank" style="display: inline-block; background-color: #98c379; color: #282c34; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1em; margin-top: 20px; border: none; cursor: pointer;">
                     Open an Issue on GitHub
                 </a>
             </div>
@@ -289,29 +124,32 @@ font-size: 1em;
         </div>
     </details>
 
-    <details>
-        <summary>📄 License</summary>
+    <details style="border: none; margin-bottom: 0; padding-bottom: 0;">
+        <summary style="font-size: 1.3em; font-weight: bold; color: #61afef; cursor: pointer; outline: none; padding: 10px 0;">
+            📄 License
+        </summary>
         <div style="padding-left: 2em; padding-top: 10px;">
-            <p>This project is licensed under the **MIT License** - you can find the full details in the <a href="LICENSE" style="color: #61afef; text-decoration: none;">LICENSE</a> file.</p>
+            <p>This project is licensed under the <strong>MIT License</strong> - you can find the full details in the <a href="LICENSE" style="color: #61afef; text-decoration: none;">LICENSE</a> file.</p>
             <p>Feel free to use, modify, and distribute according to the terms.</p>
         </div>
     </details>
-
 </div>
 
-<div class="about-architect">
-    <h3>✨ About the Architect ✨</h3>
-    <p>
+<div style="text-align: center; margin-top: 40px; padding-top: 30px; border-top: 1px dashed #444;">
+    <h3 style="font-size: 1.8em; color: #e6c07b; margin-bottom: 15px; letter-spacing: 1px;">
+        ✨ About the Architect ✨
+    </h3>
+    <p style="font-size: 1.1em; color: #c8d1d9; margin-bottom: 25px; max-width: 800px; margin-left: auto; margin-right: auto;">
         Hello! I'm Soumodip Ghosh, also known as BROCCOLI. I'm an Aspiring Tech Visionary dedicated to building the future one line at a time. This repository is a part of my journey in Python mastery.
     </p>
-    <div class="social-links">
-        <a href="https://github.com/THE-SOUMODIPghoshOFFICIAL" target="_blank">
+    <div style="margin-top: 20px; margin-bottom: 30px;">
+        <a href="https://github.com/THE-SOUMODIPghoshOFFICIAL" target="_blank" style="margin: 0 10px;">
             <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
         </a>
-        <a href="https://x.com/Dips_soumayan" target="_blank">
+        <a href="https://x.com/Dips_soumayan" target="_blank" style="margin: 0 10px;">
             <img src="https://img.shields.io/badge/-X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)">
         </a>
-        <a href="mailto:thedipssoumoofficial@gmail.com" target="_blank">
+        <a href="mailto:thedipssoumoofficial@gmail.com" target="_blank" style="margin: 0 10px;">
             <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
         </a>
     </div>
